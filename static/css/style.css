@@ -1,0 +1,41 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: white;
+}
+
+a {
+    text-decoration: none;
+    list-style: none;
+    padding-left: 20px;
+    color: black;
+}
+
+.container {
+    width: 1300px;
+    margin: 0 auto;
+}
+
+nav .container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 0 0 12px black;
+    height: 60px;
+}
+
+nav .container ul {
+    display: flex;
+}
+
+li {
+    list-style: none;
+}
+
+.search {
+    border: 1px solid black;
+}
